@@ -1,0 +1,173 @@
+.container{
+	display:block;
+	margin: 0 auto;
+	width: 700px;
+}
+.logo{
+	margin-bottom: 30px;	
+}
+hr{
+	height: 1px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: #000;
+	width: 700px;
+
+}
+ul{
+	list-style-type:none;
+	margin: 0px;
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: center;
+}
+li{
+	display:inline;
+	margin-right: 45px;
+	 padding-right: 30px;	
+	font-size: 20px;
+	border-right: 1px solid #000;
+}
+.link_uno {
+	text-decoration: none;
+	color:#000;
+}
+.link_uno:hover{
+	text-decoration: underline;
+}
+.contacto{
+	border-right: none;
+}
+.grupo {
+	margin-top: 50px;
+}
+.linea-p{
+	height: 2px;
+	width: 90px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: darkgray;
+}
+.texto{
+	 max-width: 450px;
+	display: block;
+	margin: 0 auto;
+	text-align:center;
+}
+p{
+	font-size:25px;
+}
+
+.contiene div a{
+	text-decoration: none;
+	color:#fff;
+}
+.coders-p{
+	font-size: 20px;
+
+}
+.linea_coders{
+	height: 2.5px;
+	width: 55px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	background-color:#000;
+	float:left;
+	
+}
+.contiene {
+	width:700px;
+	height: 400px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+}
+
+.contiene > div{
+	width:180px;
+	height: 180px;
+	margin:20px;
+	position:relative;
+	font-size:13px;
+	background-color:blue;
+	
+}
+.contiene  div div{
+position: absolute;
+right:0px;
+bottom:0px;
+color:blue;
+
+}
+.contiene div img{
+	width: 180px;
+	height:180px;
+	opacity:0.5;
+}
+.contiene div img:hover{
+	opacity:1;
+}
+
+/* A partir de ahora es de coder detail */
+
+.codigo{
+	border: 1.5px solid black;
+	width:650px;
+	height: 1250px;
+	display: block;
+	margin: auto;
+	position: relative;
+	top:50px;
+	margin-bottom: 50px;
+	text-align: justify;
+
+}
+.img_coder{
+	border-radius:80%;
+	margin:auto;
+	display: block;
+	width: 90px;
+	margin-top: 30px;
+}
+.nombreapellido{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 40px;
+}
+.icoder{
+	margin:40px 70px;
+}
+h2{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.cuadro{
+	height: 20px;
+	margin:20px;
+	margin-left: 40px;
+	padding: 10px;
+	color:#fff;
+	background-color: gray;
+}
+.ht{
+	width:350px;
+}
+.cs{
+	width:250px;
+}
+.jav{
+	width:150px;
+}
+.portafolio{
+	margin-left: 40px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.folio{
+	width: 150px;
+	margin:20px;
+}
